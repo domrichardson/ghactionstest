@@ -9,7 +9,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: touch "ion-backend-legacy.3.27.0-dev-master-6481-bcg6571.zip"
+      - run: echo "Hello" > "ion-backend-legacy.3.27.0-dev-master-6481-bcg6571.zip"
       - name: Install Octopus CLI
         uses: OctopusDeploy/install-octopus-cli-action@v4
         with:
